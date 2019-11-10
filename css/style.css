@@ -26,24 +26,54 @@ img {
 #main-header {
   border-bottom: 1px solid #56a79a;
 }
-/* NAVBAR */
 
-#navbar{
+/* NAVBAR */
+#navbar {
   text-transform: uppercase;
 }
 
-#navbar li{
+#navbar li {
   display: inline;
   padding-right: 20px;
   list-style: none;
 }
+
 #navbar a {
   text-decoration: none;
   color: #888;
 }
 
-#navbar li.current a, #navbar a:hover{
+#navbar li.current a, #navbar a:hover {
   color: #56a79a;
   border-bottom: 3px solid #56a79a;
   padding-bottom: 3px;
+}
+
+/*  Sowcase css*/
+#showcase {
+  background: url('../images/showcase.jpg') no-repeat center center;
+  border-bottom: 2px solid #56a79a;
+  margin-bottom: 30px;
+}
+#showcase .row{
+height: 400px;
+}
+
+#showcase .showcase-content {
+  background-color: #333;
+  color: #fff;
+  border-radius:90px;
+  opacity: 0.9;
+  padding: 40px;
+}
+
+#showcase h1{
+  margin: 0;
+  padding-bottom: : 20px;
+  font-size: 30px;
+}
+
+#showcase p{
+color: #fff;
+margin: 0;
 }
